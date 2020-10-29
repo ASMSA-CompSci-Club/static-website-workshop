@@ -64,3 +64,20 @@ A general outline of a simple HTML page is:
 When making the homepage (example.com/) of a site, the file is named index.html. If you do not wish for pages to have .html at the end of its URL, you can abuse this fact by using multiple index.html files in different folder so index.html in the *cool* directory will be served as example.com/cool/.
 
 HTML elements also have classes and IDs. While both of these are mostly used for CSS and JS functionality, it is important to know the difference. Classes are applied to multiple elements while IDs are unique identifiers. Therefore, any styling imposed on an ID trumps the styling enforced by a class. Additionally, you can create a link to a certain ID on the page by using `<a href="example.html#exampleID">Example ID</a>`. 
+
+## CSS Basics
+
+CSS (Cascading Style Sheets) is the style and formatting of a website. CSS for a website can be super minimal, incredibly complex, or anywhere in between! 
+
+There are several different ways you can take advantage of CSS:
+- External CSS - CSS coded in a style.css file.
+- Internal CSS - CSS coded in `<style>` tags outside of the body. 
+- Inline CSS - Lines of CSS meant for just one element.
+
+Additionally, if you do not want to code CSS yourself, you can import CSS themes or frameworks. Some examples of popular themes and frameworks are [Bootstrap](https://getbootstrap.com), [Sakura](https://oxal.org/projects/sakura/), and [PaperCSS](https://www.getpapercss.com). They can be added to your HTML file using the code below.
+- Bootstrap: `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">`
+- Sakura: `<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">`
+- PaperCSS: `<link rel="stylesheet" href="https://unpkg.com/papercss@1.8.1/dist/paper.min.css">`
+
+
+
