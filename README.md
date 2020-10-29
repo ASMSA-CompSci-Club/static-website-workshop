@@ -13,3 +13,9 @@
 ---
 
 ## Setting up Github Pages
+
+Github Pages is a low-tech webhost that serves the HTML, CSS, and JS files in a repository straight to visitors. Github Pages is free and very convenient since changes to the site are automatically updated when the repository is updated. Every user, organization, and project gets one Github Pages site. You can have unlimited project sites. 
+
+Simply create a repository named *username.github.io* and you are good to go!
+
+You can optionally add a custom domain, but you will always be able to access your site via *username.github.io*.
