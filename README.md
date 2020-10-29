@@ -118,3 +118,5 @@ Build a simple card with a cool shadow.
 If you want to use inline CSS, you use the format `<tag style="cool-style:value;">Cool Text</tag>`. For instance, if you want the text of one word in a paragraph to be red: 
 
 `<p>He put heat on the <span style="color:red;">wound</span> to see what would grow.</p>`
+
+For a full list of all CSS elements, [w3schools](https://www.w3schools.com/css/default.asp) is once again a great resource. 
