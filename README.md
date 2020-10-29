@@ -79,5 +79,18 @@ Additionally, if you do not want to code CSS yourself, you can import CSS themes
 - Sakura: `<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">`
 - PaperCSS: `<link rel="stylesheet" href="https://unpkg.com/papercss@1.8.1/dist/paper.min.css">`
 
+The general format for lines of css is:
+```
+element {
+  styling
+}
+```
 
+For instance, to make all paragraph text red:
+```
+p {
+  color: red
+}
+```
 
+To reference tags, you simply use *tag {}*. For classes, you use *.class {}* and for IDs you use *#id {}*.
