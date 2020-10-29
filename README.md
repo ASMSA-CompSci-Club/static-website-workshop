@@ -22,4 +22,42 @@ You can optionally add a custom domain, but you will always be able to access yo
 
 ## HTML Basics
 
-HTML syntax is fairly straightforward. A page consists of many HTML elements, each with an opening tag (<tag>) and an end tag (</tag). From there, you just need to be aware of the different types of HTML tags. [w3schools](https://www.w3schools.com/html/default.asp) is a great resource for this and some common tags are listed below. 
+HTML syntax is fairly straightforward. A page consists of many HTML elements, each with an opening tag (`<tag>`) and an end tag (`</tag>`). From there, you just need to be aware of the different types of HTML tags. [w3schools](https://www.w3schools.com/html/default.asp) is a great resource for this and some common tags are listed below. 
+
+- `<p>` = paragraph
+- `<h1>`,`<h2>`,`<h3>`,`<h4>`,`<h5>`,`<h6>` = headings
+- `<a href="https://example.com">Link</a>` = link
+- `<img src="example.png" />` = image
+- `<div>` = section of the page
+- `<span>` = inline section
+
+A general outline of a simple HTML page is:
+```
+<!DOCTYPE html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <link rel="stylesheet" href="style.css"/>
+        <title>Example Template</title>
+    </head>
+    <body>
+    
+        <nav>
+          <a href="home.html">Home</a>
+        </nav>
+        
+        <div class="body-card">
+          <h1>An Example Site</h1>
+          <p>Lorem Ipsum.</p>
+        </div>
+        
+        <footer>
+            <p>Copyright Example.</p>
+        </footer>
+        
+    </body>
+    
+</html>
+
+```
