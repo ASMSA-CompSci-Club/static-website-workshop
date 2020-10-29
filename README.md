@@ -19,3 +19,7 @@ Github Pages is a low-tech webhost that serves the HTML, CSS, and JS files in a 
 Simply create a repository named *username.github.io* and you are good to go!
 
 You can optionally add a custom domain, but you will always be able to access your site via *username.github.io*.
+
+## HTML Basics
+
+HTML syntax is fairly straightforward. A page consists of many HTML elements, each with an opening tag (<tag>) and an end tag (</tag). From there, you just need to be aware of the different types of HTML tags. [w3schools](https://www.w3schools.com/html/default.asp) is a great resource for this and some common tags are listed below. 
