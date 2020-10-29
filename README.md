@@ -61,3 +61,5 @@ A general outline of a simple HTML page is:
 </html>
 
 ```
+
+HTML elements also have classes and IDs. While both of these are mostly used for CSS and JS functionality, it is important to know the difference. Classes are applied to multiple elements while IDs are unique identifiers. Therefore, any styling imposed on an ID trumps the styling enforced by a class. Additionally, you can create a link to a certain ID on the page by using `<a href="example.html#exampleID">Example ID</a>`. 
