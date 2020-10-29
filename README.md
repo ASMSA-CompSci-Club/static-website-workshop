@@ -89,8 +89,28 @@ element {
 For instance, to make all paragraph text red:
 ```
 p {
-  color: red
+  color: red;
 }
 ```
 
 To reference tags, you simply use *tag {}*. For classes, you use *.class {}* and for IDs you use *#id {}*.
+
+Here are some more examples:
+
+Center all text and set padding to 10 pixels in the class *center-card*.
+```
+.center-card {
+  text-align: center;
+  padding: 10px;
+}
+```
+
+Build a simple card with a cool shadow. 
+```
+.cool-card {
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
+  background-color: #fff;
+  margin: 10px auto;
+  padding: 20px;
+}
+```
